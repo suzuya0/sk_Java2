@@ -9,7 +9,7 @@ public class Hero_08_02 {
   public void sit(int sec){
     this.hp += sec;
     System.out.println(this.name + "は、" + sec + "秒座った！");
-    System.out.pritnln("HPが" + sec + "ポイント回復した！");
+    System.out.println("HPが" + sec + "ポイント回復した！");
   };
   public void slip(){
     this.hp -= 5;
